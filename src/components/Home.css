@@ -1,0 +1,27 @@
+.home-wrapper {
+  max-width: 768px;
+  margin: 0em auto;
+}
+.item {
+  background: tomato;
+  color: black;
+  padding: 1em;
+  margin: 1em;
+}
+
+.project {
+  background: yellowgreen;
+  color: black;
+  padding: 1em;
+  margin: 1em;
+  cursor: pointer;
+}
+
+.project-active {
+  background: white;
+  border: 2px solid black;
+}
+
+.project:hover {
+  background: white;
+}
