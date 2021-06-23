@@ -1,7 +1,6 @@
 import { Redirect } from "react-router-dom";
 const Login = (props) => {
   const { token } = props;
-  console.log(token);
   if (token) {
     return <Redirect to="/home"></Redirect>;
   }

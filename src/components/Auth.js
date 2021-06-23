@@ -23,7 +23,7 @@ const Auth = (props) => {
   if (token) {
     return <Redirect to="/home"></Redirect>;
   }
-  return <div>{search}</div>;
+  return <div>Redirecting...</div>;
 };
 
 export default Auth;
